@@ -4,7 +4,7 @@ Author: Nicolas Dintzner
 
 ## Project background
 
-The research team is investigating people's preferences regarding potential public policy changes. The objective is to obtain the perspective of 'the population' on specific health-related public measures. 
+The research team is investigating people's preferences regarding potential public policy changes. The objective is to obtain the perspective of the general population on specific health-related public measures. 
 
 To ensure that a representative sample of the population will participate in the survey, the research team will outsource the execution of the survey to a private company specialised in this domain. The population in question is from a single European country in which the research team is located. For this study, the research team prepares the survey and the company disseminates it on their behalf. 
 
@@ -12,7 +12,7 @@ To ensure that a representative sample of the population will participate in the
 
 ### Data collection
 
-The suvey responses are a representative sample of the whole country, and the research team expects between 1000 and 2000 responses. To collect data on the preferences of survey repondents a scale system is used, such as: 'On a scale of 1 to 5, to what extent do you agree with the following statement...'
+The suvey responses are a representative sample of the whole country, and the research team expects between 1000 and 2000 responses. To collect data on their preferences, survey repondents are asked to "rate" statement using a scale system such as: 'On a scale of 1 to 5, to what extent do you agree with the following statement...'
 
 The data collected via the survey comprises a section regarding the demographic profile of the respondents. The demographic information collected are: 
 - Education
@@ -24,6 +24,9 @@ The survey data is used in combination with a script (in R or Python) to obtain 
 ### Ethics 
 
 Informed consent is required from respondents who participate in the survey. Respondents are made aware that the survey results will be made pubicly available in an aggregated format upon completion of the research. It is important to note that respondents were not asked about their state of health but were asked about their preferences regarding health-related public measures which is deemed less sensitive.
+
+Informed consent is obtained by presenting an opening statement to the participants as the first question to the survey. They must agree to continue. 
+Only completed surveys are taken into account - interrupted or incomplete survey results are discarded.
 
 ### Privacy  
 
@@ -40,11 +43,12 @@ They survey tool and responses reside within institutional storage to ensure dat
 - The survey tool should be approved by the institutional privacy and ethics team.
 - A secure storage location should be accessible by the research team (e.g. an institutional cloud storage solution).
 - Informed consent forms may only be accessed by members of the research team.
-- Personal data should not be shared beyond the research team; only aggregated data should be shared.
+- Personal data should not be shared beyond the research team (3rd parties do not have access to survey answers).
+- Only aggregated research data is shared.
 
 ### Legal 
 
-Because we managed to eliminate any personal data flow between the research institution and the survey company, we do not need to address GDPR related concerns from a legal perspective. This is possible because the survey does not collect personally identifiable information, and the survey company did not have access to the participants' answers. 
+Because we managed to eliminate any personal data flow between the research institution and the survey company, we do not need to address GDPR related concerns related to data transfer. 
 
 ## Advice (process)
 
@@ -56,11 +60,6 @@ We decided that the process should run as follows:
 - the data is collected there. 
 - all data processing is internal to the research insitute, allowing for the use of all approved resources.
 
-<!---
-Not necessary but a diagram would be nice here- no time to make one now though so I haven't attempted it
--->
-
 ## Tags 
-- [human research](https://nzr.github.io/DS-BOK/search.html?q=human+research).
-- [Far away land](https://nzr.github.io/DS-BOK/search.html?q=far+away+land).
+- [human research](https://nzr.github.io/DS-BOK/search.html?q=human+research)
 - [online survey](https://nzr.github.io/DS-BOK/search.html?q=online+survey)
