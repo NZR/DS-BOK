@@ -34,7 +34,7 @@ The data collected during this experiment is summarized below:
 
 While information is being collected from human participants, the need for personal information is limited. The use of personal infomration is mostly administrative: to setup focus group meetings, and keep track of participations in the V.R. part of the experiment. Personal data collection is limited to project management tasks, such as recruitment and meeting participants. 
 
-However, the VR experiments are known to create discomfort for some people (nausea, verigo, diziness), and participants must be warned. Additionally, participating in a VR experiment may require participants to come on site, which, in pandemic times, requires specific attention. 
+However, the VR experiments are known to create discomfort for some people (nausea, vertigo, diziness), and participants must be warned. Additionally, participating in a VR experiment may require participants to come on site, which, in pandemic times, requires specific attention. 
 
 
 For some institutions, the use of 3rd party material from social network can be subject to an ethical review - on the basis that we are indirectly interacting with people through their online contributions. Additionally, researchers must ensure that they abide by the licenses under which this content was made available for public use. 
@@ -63,14 +63,15 @@ Researchers must ensure that they have the required agreement to share:
 
 For this project, any instutitonally approved storage for personal data is sufficient. No specific security measures are required in this intance. 
 
-However, it is recommended that research separate, within this storage solution, the personal data collected to organize the experiment and the personal data that they wish to use in publication (as to ensure appropriate consent and copyrights). 
-
+However, it is recommended that research separate, within this storage solution, the personal administrative data collected to organize the experiment (participant lists, consent forms,...) and the personal research data that they wish to use in publications (demographic information).
 
 ### Legal 
 
 Legal advice will be sought out to guarantee that data collected from social media can be used for research publication. Unless the research team is very familiar with such processes, advice from the institution privacy/legal team is required. 
 
 The designs that are gathered from social media, as well as those produced during the experiment will be subject to copyrights. To ensure proper reuse of existsing content as well as legal protection for the created content, advice from the copyright team is required here.  
+
+To ensure that designs and research data do not pose copyrght or licensing issues, researchers are recommended to keep track of the provenance (website, URLs,...) of the data they collect online as to facilitate license retrieval. 
 
 ## Advice (process)
 
