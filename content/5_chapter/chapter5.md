@@ -37,9 +37,11 @@ As always, it is preferable to have consent documents. If consent documents are 
 
 If no consent documents documents are used, then the student must ensure that the participants are "sufficiently" informed that a _public_ master thesis will be written and that some of the information given during those session will be reported on, and shared in the MSc thesis. In any case, the information given by participants to the bank, and thus to the master student, will fall under pre-existing agreement such as NDAs or other bank/customer relationship agreement. 
 
-### Privacy 
+### Privacy and legal aspects
 
 The bank is engaged in the exploratory study of barriers to adoption of low carbon energy, and is trying to assess what its customer/partners want in such transition. Because the work will be done with or without the MSc student, and personal data will be collected for this purpose by the bank, it is reasonable to consider that the bank is responsible for the personal data processing in this context. 
+
+The student will have to stricly abide by the agreements between the bank and its partners/customers. 
 
 To evaluate the work of the student, the university supervisor does not need access to personal information of the participants. It is agreed that all personal data will remain in the bank. This solution alleviate the need for data sharing agreement between the university and the bank. 
 
