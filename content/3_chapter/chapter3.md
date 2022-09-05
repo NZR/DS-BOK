@@ -4,15 +4,13 @@ Author: Yan Wang
 
 ## Project background
 
-Due to the 2019/2022 pandemic, more and more individual started working from home. This project aims to identify key elements in a combined working/living environment and suggest customized designs for different user groups - based on type of activities and living/working conditions.
-
-
+Due to the 2019/2022 pandemic, more and more people started working from home. This project aims to identify key elements in a combined working/living environment and suggest customized designs for different user groups - based on type of activities and living/working conditions.
 
 This project involves gathering information on the new work/life physical setup of the general population since the start of the COVID pandemics. It will follow with a reflection on how this new organization benefit people or hinders life and/or work. Finally, it will suggest different spatial organization based on the different types of life/work setups that have been observed.
 
 This project will adopt a combined participatory approach in data collection and design of working/living environment. To achieve this, frequent interactions between researchers and participants are necessary.
 
-A key aspect of this research is the use of VR environment to design work/life spaces, and allow people to "try them out". 
+A key aspect of this research is the use of Virtual Reality (VR) environment to design work/life spaces, and allow people to "try them out". 
 
 ## Research data management considerations
 
@@ -23,22 +21,22 @@ The discovery of current work/life setups will be done by surveying social media
 Focus group approach will be used to collect feedback/reflections on the different interior arrangement. The suggested designs of the work/life spaces will be done in 3D, with a supported platform allowing for VR tools to be used. 
 
 The data collected during this experiment is summarized below:
-- Social media images, from various sources, with various copyrights
+- Social media images, from various sources, with various copyrights (e.g., Instagram, Pinterest,...)
 - Online focus group session
--   voice recording
--   transcriptions of interactions for analysis.
-- VR models and testing results
--  test results will be collected through interviews with the participants after the VR experiment is completed.
+  -   voice recording
+  -   transcriptions of interactions for analysis.
+- Virtual models of work environment and the assessment of the environment by participants.
+  -  test results will be collected through interviews with the participants after the VR experiment is completed.
 
 #### Key considerations on data collection and storage
 
-- For this project, any instutitonally approved storage for personal data is sufficient. No specific security measures are required in this intance. 
+For this project, any instutitonally approved storage for personal data is sufficient. No specific additional security measures are required in this intance. The Principal investigator may simply follow the general rules and regulation of their insitution.
 
-- Clearly separate, in the DMP and the storage solution, the personal administrative data collected to organize the experiment (participant lists, consent forms,...) and the personal research data that they wish to use in publications (demographic information).
+It is important to clearly separate, in the DMP and in the storage solution itself, the personal administrative data collected to organize the experiment (participant lists, consent forms,...) and the personal research data that they wish to use in publications (demographic information).
 
-### Data sharing
+The project is handled by a single research group, limiting the needs for data sharing during the project. The research team must ensure that all relevant project members, and only them, have access to the project data.
 
-The project is handled by a single research group, limiting the needs for data sharing during the project. In this instance, data sharing will occur mostly at archival time, when the results are made publicly avialable through a research data repository and publications. 
+In this instance, data sharing will occur mostly at archival time, when the results are made publicly avialable through a research data repository and publications. 
 
 #### Key considerations on data sharing
 
@@ -53,12 +51,11 @@ While information is being collected from human participants, the need for perso
 
 However, the VR experiments are known to create discomfort for some people (nausea, vertigo, diziness), and participants must be warned. Additionally, participating in a VR experiment may require participants to come on site, which, in pandemic times, requires specific attention. 
 
-
 For some institutions, the use of 3rd party material from social network can be subject to an ethical review - on the basis that we are indirectly interacting with people through their online contributions.  
 
 #### Key considerations on Ethics
 
-- Check existing consent forms regarding V.R. experiments, as the discomfort with such tools are quite specific.
+- Virtual Reality experiment exposes participants to specific risks. Check existing consent forms regarding V.R. experiments, as the discomfort with such tools are frequent.
 
 ### Privacy and legal aspects
 
@@ -70,19 +67,17 @@ The designs that are gathered from social media, as well as those produced durin
 
 #### Key considerations on privacy and legal aspects
 
-- Check the institutional privacy guidelines.
+As always, the researchers should check the institutional privacy guidelines.
 
-- Seek legal advice to guarantee that data collected from social media can be used for research publication. Unless the research team is very familiar with such processes, advice from the institution privacy/legal team is required. 
+It is advised to seek legal advice to guarantee that data collected from social media can be used for research publication. Unless the research team is very familiar with such processes, advice from the institution privacy/legal team is required. 
 
--  To ensure proper reuse of existsing content as well as legal protection for the created content, advice from the copyright team is required here.  
+To ensure proper reuse of existsing content as well as legal protection for the created content, the advice from the copyright team is required here.  
 
-- To ensure that designs and research data do not pose copyrght or licensing issues, researchers are recommended to keep track of the provenance (website, URLs,...) of the data they collect online as to facilitate license retrieval. 
+To ensure that designs and research data do not pose copyrght or licensing issues, researchers are recommended to keep track of the provenance (website, URLs,...) of the data they collect online as to facilitate license retrieval. This will ease the work of the IP/Copyright support team. This include URLs and website of images, general user comments on social media, or other information retrieved from social platforms. The researcher should also keep track of the URL of the website privacy policies.
 
-- Researchers must ensure that they abide by the licenses under which the 3rd party material used in this researcher was made available for public use.
+Researchers must ensure that they abide by the licenses under which the 3rd party material used in this researcher was made available for public use.
 
-- "Designs" are "unusual" research data, with specific copyright. Input from other support teams will be of great help.
-
-- Keep track of sources of information used when browsing social media, the original source of images and content may be needed to check what licenses those were released under.
+"Designs" are "unusual" research data, with specific copyright. Input from other support teams will be of great help.
 
 
 ## Tags 
