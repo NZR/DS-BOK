@@ -16,7 +16,7 @@ A key aspect of this research is the use of VR environment to design work/life s
 
 ## Research data management considerations
 
-### Data collection
+### Data collection and storage
 
 The discovery of current work/life setups will be done by surveying social media, and collect images/description of "new workspaces", as well as existing academic literature. This leads to the design of test environments that participants are asked to evaluate.
 
@@ -30,6 +30,23 @@ The data collected during this experiment is summarized below:
 - VR models and testing results
 -  test results will be collected through interviews with the participants after the VR experiment is completed.
 
+#### Key considerations on data collection and storage
+
+- For this project, any instutitonally approved storage for personal data is sufficient. No specific security measures are required in this intance. 
+
+- Clearly separate, in the DMP and the storage solution, the personal administrative data collected to organize the experiment (participant lists, consent forms,...) and the personal research data that they wish to use in publications (demographic information).
+
+### Data sharing
+
+The project is handled by a single research group, limiting the needs for data sharing during the project. In this instance, data sharing will occur mostly at archival time, when the results are made publicly avialable through a research data repository and publications. 
+
+#### Key considerations on data sharing
+
+Researchers must ensure that they have the required agreement to share: 
+- Public report with visuals (which may include VR setup with pictures of participants, or focus group pictures)
+- Public display of designs (copyrighted)
+- Public display of copyrighted material from social media
+
 ### Ethics 
 
 While information is being collected from human participants, the need for personal information is limited. The use of personal infomration is mostly administrative: to setup focus group meetings, and keep track of participations in the V.R. part of the experiment. Personal data collection is limited to project management tasks, such as recruitment and meeting participants. 
@@ -37,48 +54,36 @@ While information is being collected from human participants, the need for perso
 However, the VR experiments are known to create discomfort for some people (nausea, vertigo, diziness), and participants must be warned. Additionally, participating in a VR experiment may require participants to come on site, which, in pandemic times, requires specific attention. 
 
 
-For some institutions, the use of 3rd party material from social network can be subject to an ethical review - on the basis that we are indirectly interacting with people through their online contributions. Additionally, researchers must ensure that they abide by the licenses under which this content was made available for public use. 
+For some institutions, the use of 3rd party material from social network can be subject to an ethical review - on the basis that we are indirectly interacting with people through their online contributions.  
 
-### Privacy 
+#### Key considerations on Ethics
+
+- Check existing consent forms regarding V.R. experiments, as the discomfort with such tools are quite specific.
+
+### Privacy and legal aspects
 
 During this study, participants remain anonymous. The only personal data collection that occurs is accidental - the research goal does not require such information.
 
-Nonetheless, specific attention must be given to audio recording of interviews and focus groups, as well as the storage of informed consent forms which does contain personally identifiable information of the participants.
+Nonetheless, specific attention must be given to audio recording of interviews and focus groups, as well as the storage of signed informed consent forms which does contain personally identifiable information of the participants.
 
-Basic institutional privacy guidelines must be observed.
+The designs that are gathered from social media, as well as those produced during the experiment will be subject to copyrights.
 
+#### Key considerations on privacy and legal aspects
 
-### Data sharing
+- Check the institutional privacy guidelines.
 
-The project is handled by a single research group, limiting the needs for data sharing during the project. In this instance, data sharing will occur mostly at archival time, when the results are made publicly avialable through a research data repository and publications. 
+- Seek legal advice to guarantee that data collected from social media can be used for research publication. Unless the research team is very familiar with such processes, advice from the institution privacy/legal team is required. 
 
-Researchers must ensure that they have the required agreement to share: 
-- Public report with visuals (which may include VR setup with pictures of participants, or focus group pictures)
-- Public display of designs (copyrighted)
-- Public display of copyrighted material from social media
+-  To ensure proper reuse of existsing content as well as legal protection for the created content, advice from the copyright team is required here.  
 
-## Solutions & advice
+- To ensure that designs and research data do not pose copyrght or licensing issues, researchers are recommended to keep track of the provenance (website, URLs,...) of the data they collect online as to facilitate license retrieval. 
 
-### Data storage
+- Researchers must ensure that they abide by the licenses under which the 3rd party material used in this researcher was made available for public use.
 
-For this project, any instutitonally approved storage for personal data is sufficient. No specific security measures are required in this intance. 
-
-However, it is recommended that research separate, within this storage solution, the personal administrative data collected to organize the experiment (participant lists, consent forms,...) and the personal research data that they wish to use in publications (demographic information).
-
-### Legal 
-
-Legal advice will be sought out to guarantee that data collected from social media can be used for research publication. Unless the research team is very familiar with such processes, advice from the institution privacy/legal team is required. 
-
-The designs that are gathered from social media, as well as those produced during the experiment will be subject to copyrights. To ensure proper reuse of existsing content as well as legal protection for the created content, advice from the copyright team is required here.  
-
-To ensure that designs and research data do not pose copyrght or licensing issues, researchers are recommended to keep track of the provenance (website, URLs,...) of the data they collect online as to facilitate license retrieval. 
-
-## Advice (process)
-
-- Separate clearly in the DMP and the storage solution the personal data needed for administrative purposes and research outputs.
-- Check existing consent forms regarding V.R. experiments, as the discomfort with such tools are quite specific.
 - "Designs" are "unusual" research data, with specific copyright. Input from other support teams will be of great help.
-- Keep track of sources of information used when browsing social media, the original source of images and content may be needed to check what licenses those were released under. 
+
+- Keep track of sources of information used when browsing social media, the original source of images and content may be needed to check what licenses those were released under.
+
 
 ## Tags 
 - Social media data (images)
