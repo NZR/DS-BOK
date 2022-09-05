@@ -1,53 +1,55 @@
 # Case study 5: MSc student thesis: A commercial internship project involving personal data collection 
 
-
 Author: Nicolas Dintzner
 
 ## Project background
 
+A MSc student is studying the barrier to the adoption of low carbon technologies in the domain of banking industry. 
 
+In partnership with a large national bank, in which the student is performing his internship, the student will interview partners and customers of that bank, to gather their input on how they see the bank apply such technologies. 
 
-This project involves a Masters student who will run several interviews as part of an internship project. The interviewees are employees of a company, its business partners and  customers/prospective customers. This project aims to gather information from interviewees. The data will be used internally by the company and includes information about activities conducted by the Masters student. The data will also be used as part of the Masters student's thesis (public)
+The bank, hosting the student, is very active in this domain and the student is assisting them in their endeavour.
 
+The student, with his company supervisor will run several interviews and focus groups in order to identify barriers and challenges they may face when attempting to implement low carbon solution and satisfy their customers. 
+
+The work takes place of 6 months.
+
+In this instance, while the work is performed by a MSc student, there are no specific plans to follow up with a scientific publication. 
+The thesis contains a specific application of known techniques in a specific context, and is more _engineering_ than _research_.
 
 ## Research data management considerations
 
-### Data collection
+### Data collection and storage
 
-- A collection of interviews conducted as part of the company's activities
-- Notes and summary documents (transcripts) - _Will there also be recordings? _
+The data collection will be performed jointly by the MSc student and his company supervisor, with potentially more employees of the bank assisting in the focus group sessions. 
+
+From each event, a collection of notes will be taken  (text files) , and summary reports will be produced (text and diagrams). At the end, a global report is provided to the bank, giving them a global overview of the challenges ahead. No audio nor video recording are expected. 
+
+All data collected during focus group sessions and interviews are stored on the bank's internal storage solutions, and the student will follow all the rules, regulations and recommendation associated with data management issued by his hosting company. 
+
+The student will have a storage at the university as well, which will contain all data that the bank agrees to share with the supervisory team of the student at the University. The student will be in charge on putting the right data in that folder. No personally identifiable information should be stored in that storage, and confidential documents should be labelled as such (to avoid issues on the university side). 
 
 ### Ethics
 
-- Informed consent from interviewees will be required.
+The data collection is happening completely on the side of the bank - regardless of any ethic review. However, since the work of the student will result in a Master Thesis, published under the name of the university, a review is still necessary. 
+
+As always, it is preferable to have consent documents. If consent documents are used, the student can keep a copy of the document and present them to the university Ethic's review team. 
+
+If no consent documents documents are used, then the student must ensure that the participants are "sufficiently" informed that a _public_ master thesis will be written and that some of the information given during those session will be reported on, and shared in the MSc thesis. In any case, the information given by participants to the bank, and thus to the master student, will fall under pre-existing agreement such as NDAs or other bank/customer relationship agreement. 
 
 ### Privacy 
 
-This is a professional interview so privacy risks are minimal. Personal data are not recorded beyond what is needed to conduct the interviews. 
-_Do we need to include what will happen to any personal data that is collected? Or does the company take care of this? 
+The bank is engaged in the exploratory study of barriers to adoption of low carbon energy, and is trying to assess what its customer/partners want in such transition. Because the work will be done with or without the MSc student, and personal data will be collected for this purpose by the bank, it is reasonable to consider that the bank is responsible for the personal data processing in this context. 
 
-### Data sharing
+To evaluate the work of the student, the university supervisor does not need access to personal information of the participants. It is agreed that all personal data will remain in the bank. This solution alleviate the need for data sharing agreement between the university and the bank. 
 
-- Only within the research group for summary
-- Personal data remains in the company
+Personal data should not be shared with the university, and cannot be used in the final MSc thesis. 
 
-## Solutions & advice
+## Advice (process)
 
-<!--- A bit more content on the case might be helpful. This is a typical case that will be encountered constantly so fleshing out the process would be instructive. --> 
-
-### Data storage
-
-Data is stored internally by the company. _Should we include reason(s) for why?_
-
-### Legal 
-
-- GDPR responsibility ? _needs completing_
-
-## Advice (process) _needs completing_ 
-
-- ... 
-- ... 
-- ... 
+- Check who needs access to personal data. If access is not required for the tasks at hand, consider limiting the access to it to avoid the need for data sharing agreements.
+- Participants must still be informed that their input will be a contribution to a MSc thesis (it's a public document!)
+- Consent documents may not be common practice in company settings, but their use is critical for research. Consider discussing this early on when students are working with personal data in company setting. 
 
 ## Tags 
 
