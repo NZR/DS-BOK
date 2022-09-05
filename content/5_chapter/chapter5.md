@@ -1,4 +1,4 @@
-# Case study 5: MSc student thesis: A commercial internship project involving personal data collection 
+# (Copy of 4 ? This is strange!)Case study 5: MSc student thesis: A commercial internship project involving personal data collection 
 
 Author: Nicolas Dintzner
 
