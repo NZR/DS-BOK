@@ -1,4 +1,4 @@
-# (Copy of 4 ? This is strange!)Case study 5: MSc student thesis: A commercial internship project involving personal data collection 
+# Case study 5: MSc student thesis: A commercial internship project involving personal data collection 
 
 Author: Nicolas Dintzner
 
@@ -6,53 +6,49 @@ Author: Nicolas Dintzner
 
 A MSc student is studying the barrier to the adoption of low carbon technologies in the domain of banking industry. 
 
-In partnership with a large national bank, in which the student is performing his internship, the student will interview partners and customers of that bank, to gather their input on how they see the bank apply such technologies. 
+In partnership with a large national Bank (Bank A), in which the student is performing his internship, the student will interview partners and customers of that bank, to gather their input on how they see the bank apply such technologies. Additionally, the student will run several interviews in other banking insitutions, and citizen associations.
 
-The bank, hosting the student, is very active in this domain and the student is assisting them in their endeavour.
+The student is also performing an internship within the Bank A. He will benefit from the expertise of this company supervisor in analysing the data,
 
-The student, with his company supervisor will run several interviews and focus groups in order to identify barriers and challenges they may face when attempting to implement low carbon solution and satisfy their customers. 
-
-The work takes place of 6 months.
-
-In this instance, while the work is performed by a MSc student, there are no specific plans to follow up with a scientific publication. 
-The thesis contains a specific application of known techniques in a specific context, and is more _engineering_ than _research_.
+The work takes place over 6 months.
 
 ## Research data management considerations
 
 ### Data collection and storage
 
-The data collection will be performed jointly by the MSc student and his company supervisor, with potentially more employees of the bank assisting in the focus group sessions. 
+For each interview, we expect to collect audio recording, notes and a technical summary will be produced based on the content of the interview.
 
-From each event, a collection of notes will be taken  (text files) , and summary reports will be produced (text and diagrams). At the end, a global report is provided to the bank, giving them a global overview of the challenges ahead. No audio nor video recording are expected. 
+Part of the data collection will be done jointly between the student and the company supervisor - but not all. Only interviews with partners and customer of Bank A. 
+It is understood that, for those specific interview, the Bank A already has access to some personal data (at least contact information) of the participants. 
 
-All data collected during focus group sessions and interviews are stored on the bank's internal storage solutions, and the student will follow all the rules, regulations and recommendation associated with data management issued by his hosting company. 
+However, for interviews with other stakeholder, the student will be on his/her own. 
 
-The student will have a storage at the university as well, which will contain all data that the bank agrees to share with the supervisory team of the student at the University. The student will be in charge on putting the right data in that folder. No personally identifiable information should be stored in that storage, and confidential documents should be labelled as such (to avoid issues on the university side). 
+All data should be stored at the University. Only data collected in partnership with Bank A should accessible to the company supervisor. However, all summaries should be anonymous and can be shared with all the supervisory team (university and Bank A alike) to fuel technical discussion. 
 
 ### Ethics
 
-The data collection is happening completely on the side of the bank - regardless of any ethic review. However, since the work of the student will result in a Master Thesis, published under the name of the university, a review is still necessary. 
+Most participants to interviews are going to be adults, and employees of banks or their partner institutions. We do not expect the participants to be vulnerable in that regard. 
 
-As always, it is preferable to have consent documents. If consent documents are used, the student can keep a copy of the document and present them to the university Ethic's review team. 
+However, their views regarding the company they work for, or the banking sector as a whole, could have a negative impact on them, and should therefore be kept within the University - and not shared, if possible, with Bank A. 
 
-If no consent documents documents are used, then it is assumed that the content of the MSc thesis - which is likely going to be public and must be reviewed by the bank, does not jeopardize their relationship of the bank with its customers/partners. 
-In any case, the information given by participants to the bank, and thus to the master student, will fall under pre-existing agreement such as NDAs or other bank/customer relationship agreement. Documents indicating that the student is aware of such constrains can be provided to the ethics team.
+Consent documents must be used for all interviews - including those performed within Bank A. This can be a challenge, as the bank is used to collect information from their partner without explicit consent document. This may come across as unusual in a business context, but considering the student will get data from various groups, it is much easier to handle all those input in a consistent manner - i.e. with consent forms.
+
+The consent form should be particularly clear regarding who will have access to the raw data (recording). 
 
 ### Privacy and legal aspects
 
-The bank is engaged in the exploratory study of barriers to adoption of low carbon energy, and is trying to assess what its customer/partners want in such transition. Because the work will be done with or without the MSc student, and personal data will be collected for this purpose by the bank, it is reasonable to consider that the bank is responsible for the personal data processing in this context. 
+The consent document will ensure that the data collection is done based on the participant explicit consent. 
 
-The student will have to stricly abide by the agreements between the bank and its partners/customers. 
+In this instance, a few points are particularly important: who will have access to the raw data, and the purpose of processing. 
+The student must ensure that the data is not shared beyond the research team (at the university), and that the data collected in partnership with the company is not used for other purposes. 
 
-To evaluate the work of the student, the university supervisor does not need access to personal information of the participants. It is agreed that all personal data will remain in the bank. This solution alleviate the need for data sharing agreement between the university and the bank. 
-
-Personal data should not be shared with the university, and cannot be used in the final MSc thesis. 
+The data collected during meeting with Bank A partner's may be used by Bank A for other purposes. This only applies to meetings in which Bank A is directly involved. The members of Bank A are in charge of properly informing participants of what they will do with the data, and the student will do the same for his/her part of the work.
 
 ## Advice (process)
 
-- Check who needs access to personal data. If access is not required for the tasks at hand, consider limiting the access to it to avoid the need for data sharing agreements.
-- Participants must still be informed that their input will be a contribution to a MSc thesis (it's a public document!)
-- Consent documents may not be common practice in company settings, but their use is critical for research. Consider discussing this early on when students are working with personal data in company setting. 
+- explicit consent may be difficult to obtain in a company setting when meetings with partners and customers are common place - signing forms before a regular work meeting is an unusual practice. 
+- because the MSc thesis is public, we need those consent form to ensure compliance with both ethical regulations and legal rules.
+
 
 ## Tags 
 
