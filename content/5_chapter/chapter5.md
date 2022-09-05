@@ -35,7 +35,8 @@ The data collection is happening completely on the side of the bank - regardless
 
 As always, it is preferable to have consent documents. If consent documents are used, the student can keep a copy of the document and present them to the university Ethic's review team. 
 
-If no consent documents documents are used, then the student must ensure that the participants are "sufficiently" informed that a _public_ master thesis will be written and that some of the information given during those session will be reported on, and shared in the MSc thesis. In any case, the information given by participants to the bank, and thus to the master student, will fall under pre-existing agreement such as NDAs or other bank/customer relationship agreement. 
+If no consent documents documents are used, then it is assumed that the content of the MSc thesis - which is likely going to be public and must be reviewed by the bank, does not jeopardize their relationship of the bank with its customers/partners. 
+In any case, the information given by participants to the bank, and thus to the master student, will fall under pre-existing agreement such as NDAs or other bank/customer relationship agreement. Documents indicating that the student is aware of such constrains can be provided to the ethics team.
 
 ### Privacy and legal aspects
 
