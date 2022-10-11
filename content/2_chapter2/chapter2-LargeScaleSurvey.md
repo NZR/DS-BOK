@@ -46,15 +46,11 @@ Informed consent is obtained by presenting an opening statement to the participa
 
 Only completed surveys are taken into account - interrupted or incomplete survey results are discarded.
 
-#### Key considerations on ethics
-
 ### Privacy & legal aspects
 
 The survey responses contain personal data relating to the demographic profile of respondents, however, this data does not allow for re-identification of respondents. Despite the high number of survey respondents, due to the limited demographic information being collected the privacy of respondents is not considered to be at risk.
 
-#### Key considerations on privacy and legal aspects
-
-- Because we managed to eliminate any personal data flow between the research institution and the survey company, we do not need to address GDPR-related concerns related to data transfer. 
+Because we managed to eliminate any personal data flow between the research institution and the survey company, we do not need to address GDPR-related concerns related to data transfer. 
 
 ## Tags 
 - [human research](https://nzr.github.io/DS-BOK/search.html?q=human+research)

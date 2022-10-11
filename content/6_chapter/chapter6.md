@@ -42,7 +42,7 @@ Despite being indirect witnesses to illegal activities, it was considered that r
 
 ### Privacy and legal aspects
 
-Because of the sensitive nature of the collected data (semi-criminal data), a review by the appropriate privacy team is required. Such a study may require a Data Protection Impact Assesment (DPIA) to be performed. That process will determine the degree of sensitivity of the information from a GDPR perspective. For this study, a DPIA was indeed required.
+Because of the sensitive nature of the collected data (semi-criminal data) and the constant monitoring of activities, a review by the appropriate privacy team is required. Such a study may require a Data Protection Impact Assesment (DPIA) to be performed. That process will determine the degree of sensitivity of the information from a GDPR perspective. For this study, a DPIA was indeed required.
 
 Additionally, since the data are not collected directly by the university, but the partner, a data transfer agreement must be put in place - since, without having much personal detail about bike thieves, we do track their location through several days - and hence, are in a position to re-identify the individual with minimal effort. 
 
