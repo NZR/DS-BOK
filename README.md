@@ -1,3 +1,9 @@
+# WARNING: 
+
+Those use cases are here in a semi-draft state. A more finalized versions of those use cases are being written and will be made available through other channels such as the 4TU Community website. 
+
+For any questions, feel free to contact the contributors listed in the acknowledgements! 
+
 # Use case book project
 
 # Pre-requisites
