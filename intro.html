@@ -1,0 +1,605 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Introduction &#8212; Data Stewards&#39; Use Cases</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Case study 1: A living lab in Katmandu" href="1_chapter1/chapter1.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">Data Stewards' Use Cases</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1 current active">
+                <a class="reference internal" href="#">
+                    Introduction
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="1_chapter1/chapter1.html">
+   Case study 1: A living lab in Katmandu
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2_chapter2/chapter2-LargeScaleSurvey.html">
+   Case study 2: Large Scale Survey
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="3_chapter/chapter3.html">
+   Case study 3: Design of working/living environment
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="4_chapter/chapter_4_main.html">
+   Case study 4 : Master thesis work, interview in a company
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="5_chapter/chapter5.html">
+   Case study 5: MSc student thesis: A commercial internship project involving personal data collection
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="6_chapter/chapter6.html">
+   Case study 6: Living lab in metropolitan area.
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="7-chapter/chapter%207.html">
+   Case study 7: Tracer update
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="8_chapter/chapter_8.html">
+   Case study 8: Cyber Security
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="99_Acks/index.html">
+   Acknowledgements
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/intro.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Introduction
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-is-this-book-about">
+     What is this book about?
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#who-is-this-book-for">
+     Who is this book for?
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#why-read-this-book">
+     Why read this book?
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-can-you-use-this-book">
+     How can you use this book?
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-was-this-book-created">
+     How was this book created?
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-to-contribute">
+     How to contribute!
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#notes-for-authors-how-to-edit-md-files-and-such">
+   Notes for authors - how to edit MD files and such!
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#naming-convention-for-folders-and-files">
+     Naming convention for folders and files !
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Introduction</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Introduction
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-is-this-book-about">
+     What is this book about?
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#who-is-this-book-for">
+     Who is this book for?
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#why-read-this-book">
+     Why read this book?
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-can-you-use-this-book">
+     How can you use this book?
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-was-this-book-created">
+     How was this book created?
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-to-contribute">
+     How to contribute!
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#notes-for-authors-how-to-edit-md-files-and-such">
+   Notes for authors - how to edit MD files and such!
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#naming-convention-for-folders-and-files">
+     Naming convention for folders and files !
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h1>
+<p>Welcome to the Data Steward Use Cases compedium. This document was created to capture the experiences and knowledge the data stewards working in several Dutch university. We selected rather common situations faced by researchers during their work, making explicit the data-related challenges, as to highlight what constitute “problems” and how to address them. We hope that this document will be of use to researchers, when preparing their projects, and data stewards in-training, as to get ready to what is out there.</p>
+<section id="what-is-this-book-about">
+<h2>What is this book about?<a class="headerlink" href="#what-is-this-book-about" title="Permalink to this headline">#</a></h2>
+<p>This book provides a collection of disciplinary research projects from various faculties and departments within 4TU partner organisation; Delft University of Technology, Eindhoven University of Technology and the University of Twente. The case study were selected on the basis of their frequency of appearance in the research projects suported by the 4TU data steward community. If a case is described in here, it happens in real life too!</p>
+</section>
+<section id="who-is-this-book-for">
+<h2>Who is this book for?<a class="headerlink" href="#who-is-this-book-for" title="Permalink to this headline">#</a></h2>
+<p>Data stewards, data support professionals and researchers</p>
+<ul class="simple">
+<li><p>Facilitate peer-to-peer learning among data stewards through the collection of unique and unusual (non-standard!) use cases.</p></li>
+<li><p>Identify similarities and differences in research data management practice across diverse research disciplines</p></li>
+<li><p>Will allow data stewards to provide advice in a more comprehensive manner (rather than an over-simplified overview?)</p></li>
+<li><p>Can be reused/modified in an educational context to inform students about various aspects of RDM</p></li>
+<li><p>Can be combined with an RDM checklist</p></li>
+<li><p>Can be used to form the basis of guidance for data stewards and researchers.</p></li>
+</ul>
+</section>
+<section id="why-read-this-book">
+<h2>Why read this book?<a class="headerlink" href="#why-read-this-book" title="Permalink to this headline">#</a></h2>
+<p>There are 2 main ways of reading this book: for education purposes, and for a specific case.</p>
+<p>If you are interested in the data management in research projects in general, feel free to start at Use Case 1 and read along.</p>
+<p>However, if you are interested in a specific case that you will be facing in the near future, we recommend that you use the “search feature” of the online book, or use the table of content to find which case could be the most related to your situation. The use cases described in this book should give you a fair view on what challenges you may face. For each use case, we hope to provide a complete perspective on what needs to be accounted for.</p>
+</section>
+<section id="how-can-you-use-this-book">
+<h2>How can you use this book?<a class="headerlink" href="#how-can-you-use-this-book" title="Permalink to this headline">#</a></h2>
+<p>&lt;Note by Nico: given what I’ve written above, this section seems redundent… I’m not sure I can do “why” and “how” separately. Shall we merge those 2?&gt;</p>
+<ul class="simple">
+<li><p>Can we suggest how the case studies should be navigated and read?</p></li>
+<li><p>Could we include an RDM checklist at the end?</p></li>
+<li><p>How could the book be used in an educational setting?</p></li>
+</ul>
+</section>
+<section id="how-was-this-book-created">
+<h2>How was this book created?<a class="headerlink" href="#how-was-this-book-created" title="Permalink to this headline">#</a></h2>
+<p>This book was collaboratively written by the data stewards of the 4TU Community, using the Git Pages tools!</p>
+</section>
+<section id="how-to-contribute">
+<h2>How to contribute!<a class="headerlink" href="#how-to-contribute" title="Permalink to this headline">#</a></h2>
+<p>We’d love to expand our collection of use cases. If you have an interesting project you’d like to add… xxx</p>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="notes-for-authors-how-to-edit-md-files-and-such">
+<h1>Notes for authors - how to edit MD files and such!<a class="headerlink" href="#notes-for-authors-how-to-edit-md-files-and-such" title="Permalink to this headline">#</a></h1>
+<p>Anything below this title is purely for editing the document and will be removed before the document is finalized.</p>
+<section id="naming-convention-for-folders-and-files">
+<h2>Naming convention for folders and files !<a class="headerlink" href="#naming-convention-for-folders-and-files" title="Permalink to this headline">#</a></h2>
+<p>Just to avoid issues, here is how you should name your folders. BE CAREFUL about CAPITALIZATION!</p>
+<p>X_chapter/name-of-the-file.md</p>
+<p>The name of the file mattersis less relevant, but the folders must be in the order in which we want to see them in the table of content!</p>
+<p>Here are some useful links for the redaction process.</p>
+<p>Slides containing the use cases.</p>
+<p><a class="reference external" href="https://docs.google.com/presentation/d/19Top3oxMaSkL2IovwvM-spNrnSleYfA0/edit#slide=id.p1">https://docs.google.com/presentation/d/19Top3oxMaSkL2IovwvM-spNrnSleYfA0/edit#slide=id.p1</a></p>
+<p>Slides for how to use Git:</p>
+<p><a class="reference external" href="https://docs.google.com/presentation/d/1ZcjrdBngm7Y6GDgzjPaKM-QC9Bt1gtoU/edit?rtpof=true&amp;sd=true">https://docs.google.com/presentation/d/1ZcjrdBngm7Y6GDgzjPaKM-QC9Bt1gtoU/edit?rtpof=true&amp;sd=true</a></p>
+<p>Quotes:</p>
+<blockquote>
+<div><p>Of all the things I’ve lost
+I miss my mind the most. - Mark Twain</p>
+</div></blockquote>
+<p>Some lists:</p>
+<ul class="simple">
+<li><p>Item 1</p>
+<ul>
+<li><p>Sub-item 1</p></li>
+<li><p>Sub-item 2</p></li>
+</ul>
+</li>
+<li><p>Item 2</p>
+<ul>
+<li><p>Sub-item 1</p></li>
+</ul>
+</li>
+</ul>
+<p>Link to ex
+<a class="reference external" href="http://stackabuse.com">Stack Abuse</a></p>
+<p>Test text :)</p>
+<p>Quotes:</p>
+<blockquote>
+<div><p>Of all the things I’ve lost
+I miss my mind the most. - Mark Twain</p>
+</div></blockquote>
+<p>Some lists:</p>
+<ul class="simple">
+<li><p>Item 1</p>
+<ul>
+<li><p>Sub-item 1</p></li>
+<li><p>Sub-item 2</p></li>
+</ul>
+</li>
+<li><p>Item 2</p>
+<ul>
+<li><p>Sub-item 1</p></li>
+</ul>
+</li>
+</ul>
+<p>Link to ex
+<a class="reference external" href="http://stackabuse.com">Stack Abuse</a></p>
+<p>Making a point!</p>
+<p><em>This is emphasized text!</em></p>
+<p><strong>This is strong text!</strong></p>
+<p><em>This is emphasized text!</em></p>
+<p><strong>This is strong text!</strong></p>
+<p>Inserting an image.</p>
+<p><img alt="My Alt Text" src="path/to/my/pic.jpg" /></p>
+<p>Warning! You must upload your image to github first, put it in the same chapter folder. The path can then be: name_of_my_image.png (or similar).</p>
+<p>And a table:</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Item</p></th>
+<th class="text-align:center head"><p>Price</p></th>
+<th class="text-align:right head"><p># In stock</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Juicy Apples</p></td>
+<td class="text-align:center"><p>1.99</p></td>
+<td class="text-align:right"><p>739</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bananas</p></td>
+<td class="text-align:center"><p>1.89</p></td>
+<td class="text-align:right"><p>6</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='right-next' id="next-link" href="1_chapter1/chapter1.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Case study 1: A living lab in Katmandu</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By 4TU.ResearchData Community<br/>
+  
+      &copy; Copyright 2021.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>

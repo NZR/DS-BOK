@@ -1,0 +1,580 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Case study 7: Tracer update &#8212; Data Stewards&#39; Use Cases</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Case study 8: Cyber Security" href="../8_chapter/chapter_8.html" />
+    <link rel="prev" title="Case study 6: Living lab in metropolitan area." href="../6_chapter/chapter6.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">Data Stewards' Use Cases</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Introduction
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../1_chapter1/chapter1.html">
+   Case study 1: A living lab in Katmandu
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2_chapter2/chapter2-LargeScaleSurvey.html">
+   Case study 2: Large Scale Survey
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../3_chapter/chapter3.html">
+   Case study 3: Design of working/living environment
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../4_chapter/chapter_4_main.html">
+   Case study 4 : Master thesis work, interview in a company
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../5_chapter/chapter5.html">
+   Case study 5: MSc student thesis: A commercial internship project involving personal data collection
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../6_chapter/chapter6.html">
+   Case study 6: Living lab in metropolitan area.
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Case study 7: Tracer update
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../8_chapter/chapter_8.html">
+   Case study 8: Cyber Security
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../99_Acks/index.html">
+   Acknowledgements
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/7-chapter/chapter 7.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#project-background">
+   Project background
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#research-data-management-considerations">
+   Research data management considerations
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#data-collection-and-storage">
+     Data collection and storage
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#key-considerations-on-data-collection-and-storage">
+       Key considerations on data collection and storage
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ethics">
+     Ethics
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#key-considerations-on-ethics">
+       Key considerations on Ethics
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#privacy-legal-aspects">
+     Privacy &amp; legal aspects
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#key-considerations-on-privacy-and-legal-aspects">
+       Key considerations on Privacy and legal aspects
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#advice-process">
+   Advice (process)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tags">
+   Tags
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Case study 7: Tracer update</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#project-background">
+   Project background
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#research-data-management-considerations">
+   Research data management considerations
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#data-collection-and-storage">
+     Data collection and storage
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#key-considerations-on-data-collection-and-storage">
+       Key considerations on data collection and storage
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ethics">
+     Ethics
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#key-considerations-on-ethics">
+       Key considerations on Ethics
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#privacy-legal-aspects">
+     Privacy &amp; legal aspects
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#key-considerations-on-privacy-and-legal-aspects">
+       Key considerations on Privacy and legal aspects
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#advice-process">
+   Advice (process)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tags">
+   Tags
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="case-study-7-tracer-update">
+<h1>Case study 7: Tracer update<a class="headerlink" href="#case-study-7-tracer-update" title="Permalink to this headline">#</a></h1>
+<p>Author: Judith Brands and Qian Zhang</p>
+<section id="project-background">
+<h2>Project background<a class="headerlink" href="#project-background" title="Permalink to this headline">#</a></h2>
+<p>This research project is aiming at assessing diagnostic tool efficiency, based on previously collected medical information. The principal investigator
+is a staff member of the hospital, who also conducts research in partnership with a university.</p>
+<p>For this project, the goal was to evaluate imaging quality and tracer usage to diagnose patients with cancer, as a retrospective study.</p>
+<p>This project will generate data regarding tracer uptake in specific organs, and a qualitative assessments of the resulting scan.
+Based on this, the suitability of the tracer/scan for diagnostic purposes can be evaluated.</p>
+</section>
+<section id="research-data-management-considerations">
+<h2>Research data management considerations<a class="headerlink" href="#research-data-management-considerations" title="Permalink to this headline">#</a></h2>
+<section id="data-collection-and-storage">
+<h3>Data collection and storage<a class="headerlink" href="#data-collection-and-storage" title="Permalink to this headline">#</a></h3>
+<p>In this project, the research team expects to re-use scans that were done on patients over time.
+All datasets have been pseudo-anonymized before being shared with the principal investigator of the project, however, due to the medical nature of the data, re-identification is a possibility. The datasets contain:</p>
+<ul class="simple">
+<li><p>medical history (past diagnosis and treatments)</p></li>
+<li><p>Patient characteristics (age/sex)</p></li>
+<li><p>Imaging data</p></li>
+</ul>
+<p>All datasets are being made available to the principal investigator via the hospital data storage system. No data is transferred between institutions during and after research. Since medical information falls under the special category of personal data, all accesses to the data remain restricted after research.</p>
+<p>According to the contract, all derived datasets which may contain personal data must be destroyed. All derived datasets must be anonymized before being published.</p>
+<section id="key-considerations-on-data-collection-and-storage">
+<h4>Key considerations on data collection and storage<a class="headerlink" href="#key-considerations-on-data-collection-and-storage" title="Permalink to this headline">#</a></h4>
+<ul class="simple">
+<li><p>Personal data which is not neccessary for the project should not be shared beyond the study team at the hospital if there is no specific need to share this data with other actors of the project.</p></li>
+<li><p>Data transfer shall be minimized/avoided for pseudonumized data- In this specific project, data remained within the hospital network, and accessed with respect to established security measures of the hospital.</p></li>
+</ul>
+</section>
+</section>
+<section id="ethics">
+<h3>Ethics<a class="headerlink" href="#ethics" title="Permalink to this headline">#</a></h3>
+<p>According to the Wet medischp-wetenschappelijke onderzoek met mensen act (WMO), medical research involving humans should be assessed by an accredited METC or a CCMO in advance (before collecting data).</p>
+<section id="key-considerations-on-ethics">
+<h4>Key considerations on Ethics<a class="headerlink" href="#key-considerations-on-ethics" title="Permalink to this headline">#</a></h4>
+<ul class="simple">
+<li><p>Medical ethical approval (WMO) shall be obtained in advance.</p></li>
+</ul>
+</section>
+</section>
+<section id="privacy-legal-aspects">
+<h3>Privacy &amp; legal aspects<a class="headerlink" href="#privacy-legal-aspects" title="Permalink to this headline">#</a></h3>
+<p>In this project, personal data is going to be processed, therefore, researchers should comply with the General Data Protection Regulation (GDPR; the European privacy law). At the university, anyone who processes personal data should register the personal data in a GDPR form which will be checked by the university data protection officer. Informed consent was used to ensure that the personal data was used in accordance to the data subject wishes.
+Since the researcher has double affiliation (the UMC as the first affiliation and the university as the second), it is important to determine the ownership of the data in advance. This can be specified in a contract between the UMC and the university. In this instance, the data was considered to be the property of the hospital.</p>
+<p>All activities related to medical data must be framed by contracts. In this case, the principal investigator is an employee of the hospital, and therefore bound by the rules and regulations of the institute.</p>
+<section id="key-considerations-on-privacy-and-legal-aspects">
+<h4>Key considerations on Privacy and legal aspects<a class="headerlink" href="#key-considerations-on-privacy-and-legal-aspects" title="Permalink to this headline">#</a></h4>
+<ul class="simple">
+<li><p>Pseudonymized medical data is considered sensitive personal data, therefore GDPR applies. It is important to have the processing of this types of data checked by a data protection officer.</p></li>
+<li><p>Data ownership shall be discussed and determined in advance to prevent future conflicts when multiple parties are involved in a project or when the principal investigator of a project is affiliated with multiple organizations. This should be outlined in a contract or consortium/data sharing agreement which is approved by a legal advisor.</p></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="advice-process">
+<h2>Advice (process)<a class="headerlink" href="#advice-process" title="Permalink to this headline">#</a></h2>
+<p>In this instance, given the sensitivity of the data, it is recommened to follow all process, university and hospital, to the letter.
+The DMP must be very precise as to what data will be used, and where it is stored.</p>
+<p>In addition to Ethics oversight, additional input from the privacy/legal team, regarding the safeguarding of the data may be required. In such cases, a Data Protection Impact Assessment may be requested.
+It is important for actors of this project to have a known protocol to follow in case of data loss or data leak.</p>
+</section>
+<section id="tags">
+<h2>Tags<a class="headerlink" href="#tags" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://nzr.github.io/DS-BOK/search.html?q=Medical+health+data">Medical health data</a>;</p></li>
+<li><p><a class="reference external" href="https://nzr.github.io/DS-BOK/search.html?q=double+affiliation">Double affiliation</a>;</p></li>
+<li><p><a class="reference external" href="https://nzr.github.io/DS-BOK/search.html?q=data+transfer">Data tansfer</a>;</p></li>
+<li><p><a class="reference external" href="https://nzr.github.io/DS-BOK/search.html?q=personal+data">Personal data</a>;</p></li>
+<li><p><a class="reference external" href="https://nzr.github.io/DS-BOK/search.html?q=DMP">DMP</a>;</p></li>
+<li><p><a class="reference external" href="https://nzr.github.io/DS-BOK/search.html?q=personal+data">Personal data</a>;</p></li>
+<li><p><a class="reference external" href="https://nzr.github.io/DS-BOK/search.html?q=clinical+study">Clinical study</a>;</p></li>
+<li><p><a class="reference external" href="https://nzr.github.io/DS-BOK/search.html?q=pseudonymised+data">Pseudonymised data</a>;</p></li>
+<li><p><a class="reference external" href="https://nzr.github.io/DS-BOK/search.html?q=large+volume+of+data">Large volume of data</a>;</p></li>
+<li><p><a class="reference external" href="https://nzr.github.io/DS-BOK/search.html?q=contracts">Contracts</a>;</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./7-chapter"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="../6_chapter/chapter6.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Case study 6: Living lab in metropolitan area.</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="../8_chapter/chapter_8.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Case study 8: Cyber Security</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By 4TU.ResearchData Community<br/>
+  
+      &copy; Copyright 2021.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
